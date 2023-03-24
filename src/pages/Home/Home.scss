@@ -1,0 +1,199 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #004db3;
+  width: 100vw;
+  height: 100vh;
+}
+
+.home__body {
+  display: flex;
+}
+
+.home__body__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 100px;
+  position: relative;
+
+  .small-circle {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    height: 2vh;
+  }
+
+  .orange-dot {
+    position: absolute;
+    top: 5px;
+    right: 220px;
+    height: 1vh;
+  }
+
+  .zigzag {
+    position: absolute;
+    top: 40%;
+    left: 0;
+  }
+}
+
+.home__body__info__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h1 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+    color: #ffffff;
+  }
+
+  p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #e7e7e7;
+  }
+}
+
+.home__body__info__buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  button {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+
+  .button1 {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    gap: 5px;
+  }
+
+  .button2 {
+    background: #ffffff;
+    border-radius: 4px;
+    color: #004db3;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+  }
+}
+
+.home__body__info__avatars {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.home__body__info__avatars__images {
+  display: flex;
+  align-items: center;
+}
+
+.home__body__info__avatars__text {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+  }
+}
+
+.home__body__hero {
+  padding: 0 100px;
+  position: relative;
+
+  .hero {
+    height: 76vh;
+  }
+
+  .bulb {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    height: 25vh;
+  }
+
+  .vscode {
+    position: absolute;
+    top: 10%;
+    right: 18%;
+    height: 10vh;
+  }
+
+  .wordpress {
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    height: 10vh;
+    right: 10%;
+  }
+
+  .figma {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    height: 10vh;
+  }
+
+  .circle {
+    position: absolute;
+    left: 19%;
+    top: 33%;
+    height: 3vh;
+  }
+
+  .triangle {
+    position: absolute;
+    right: 19%;
+    top: 38%;
+    height: 3vh;
+  }
+
+  .dot {
+    position: absolute;
+    left: 22%;
+    bottom: 10%;
+    height: 1vh;
+  }
+
+  .spiral {
+    position: absolute;
+    bottom: 30%;
+    left: -5%;
+    height: 15vh;
+  }
+}
