@@ -1,4 +1,11 @@
 .aboutUs {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutUs__body1 {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
 }
@@ -19,18 +26,12 @@
   }
 }
 
-.aboutUs__body {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.aboutUs__body__section1 {
+.aboutUs__body1__section {
   display: flex;
   padding: 50px 60px;
 }
 
-.aboutUs__body__section1__info {
+.aboutUs__body1__section__info {
   flex: 0.5;
   display: flex;
   flex-direction: column;
@@ -89,7 +90,7 @@
   }
 }
 
-.aboutUs__body__section1__info__options {
+.aboutUs__body1__section__info__options {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
@@ -116,14 +117,14 @@
   }
 }
 
-.aboutUs__body__section1__hero {
+.aboutUs__body1__section__hero {
   flex: 0.5;
   position: relative;
   display: flex;
   justify-content: flex-end;
   padding: 0px 60px 0px 0px;
 
-  .aboutUs__body__section1__hero__avatar {
+  .aboutUs__body1__section__hero__avatar {
     z-index: 5;
     display: flex;
     flex-direction: column;
@@ -164,5 +165,108 @@
     z-index: 5;
     bottom: -20%;
     left: 5%;
+  }
+}
+
+.aboutUs__body2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding: 30px 100px;
+  margin-top: 10vh;
+  gap: 10vw;
+}
+
+.aboutUs__body2__section1 {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+
+  h1 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 70px;
+    text-transform: capitalize;
+    color: #000f24;
+  }
+
+  p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #a2a2a2;
+  }
+
+  .kidHero {
+    height: 50vh;
+  }
+
+  .green-triangle {
+    position: absolute;
+    bottom: 18%;
+    left: -13%;
+    height: 3vh;
+  }
+}
+
+.aboutUs__body2__section2 {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .zigzag {
+    margin: 0px auto;
+  }
+
+  .circlePurple {
+    position: absolute;
+    right: -10%;
+    bottom: 10%;
+    height: 2vh;
+  }
+}
+
+.aboutUs__body2__section2__infos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.aboutUs__body2__section2__info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  img {
+    height: 4vh;
+  }
+
+  h4 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #a2a2a2;
   }
 }
