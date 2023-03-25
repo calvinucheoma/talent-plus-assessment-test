@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import './Navbar.scss';
 
-const Navbar = () => {
+const Navbar = ({ scrollTo }) => {
   return (
     <div className="navbar">
       <div className="navbar__title">
@@ -10,11 +10,25 @@ const Navbar = () => {
 
       <div className="navbar__links">
         <div className="navbar__links__text">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about-us">About Us</NavLink>
-          <NavLink to="/courses">Courses</NavLink>
-          <NavLink to="/testimonial">Testimonial</NavLink>
-          <NavLink to="/community">Community</NavLink>
+          <NavLink
+            to="#"
+            onClick={() => scrollTo('home')}
+            className="active-link"
+          >
+            Home
+          </NavLink>
+          <NavLink to="#" onClick={() => scrollTo('about-us')}>
+            About Us
+          </NavLink>
+          <NavLink to="#" onClick={() => scrollTo('courses')}>
+            Courses
+          </NavLink>
+          <NavLink to="#" onClick={() => scrollTo('testimonial')}>
+            Testimonial
+          </NavLink>
+          <NavLink to="#" onClick={() => scrollTo('community')}>
+            Community
+          </NavLink>
         </div>
 
         <div className="navbar__links__button">

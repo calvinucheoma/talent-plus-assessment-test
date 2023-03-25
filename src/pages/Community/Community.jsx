@@ -1,7 +1,11 @@
 import './Community.scss';
 
 const Community = () => {
-  return <div>Community</div>;
+  return (
+    <div className="community" id="community">
+      Community
+    </div>
+  );
 };
 
 export default Community;

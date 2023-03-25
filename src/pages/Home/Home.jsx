@@ -3,12 +3,7 @@ import './Home.scss';
 import circleSmall from '../../assets/svg/green-circle-small.svg';
 import zigzag from '../../assets/svg/blue-zigzag.svg';
 import { FiArrowUpRight } from 'react-icons/fi';
-import { Avatar } from '@mui/material';
-import girl1 from '../../assets/jpg/girl1.jpg';
-import girl2 from '../../assets/jpg/girl2.jpg';
-import girl3 from '../../assets/jpg/girl3.jpg';
-import boy1 from '../../assets/jpg/boy1.jpg';
-import boy2 from '../../assets/jpg/boy2.jpg';
+
 import hero from '../../assets/png/HERO IMAGEE.png';
 import bulb from '../../assets/png/bulb.png';
 import vscode from '../../assets/png/Visual Studio Code - jpeg.png';
@@ -18,11 +13,12 @@ import spiral from '../../assets/png/spiral.png';
 import orangeDot from '../../assets/png/orange-dot.png';
 import circleMedium from '../../assets/svg/green-circle-medium.svg';
 import triangle from '../../assets/svg/triangle-medium.svg';
+import AvatarGroup from '../../components/AvatarGroups/AvatarGroups';
 
-const Home = () => {
+const Home = ({ scrollTo }) => {
   return (
-    <div className="home">
-      <Navbar />
+    <div className="home" id="home">
+      <Navbar scrollTo={scrollTo} />
 
       <div className="home__body">
         <div className="home__body__info">
@@ -53,11 +49,12 @@ const Home = () => {
 
           <div className="home__body__info__avatars">
             <div className="home__body__info__avatars__images">
-              <Avatar src={girl1} alt="woman" />
+              {/* <Avatar src={girl1} alt="woman" />
               <Avatar src={boy1} alt="man" />
               <Avatar src={girl2} alt="woman" />
               <Avatar src={boy2} alt="boy" />
-              <Avatar src={girl3} alt="woman" />
+              <Avatar src={girl3} alt="woman" /> */}
+              <AvatarGroup />
             </div>
             <div className="home__body__info__avatars__text">
               <p>255k+</p>

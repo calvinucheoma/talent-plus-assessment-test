@@ -1,0 +1,168 @@
+.aboutUs {
+  width: 100vw;
+  height: 100vh;
+}
+
+.aboutUs__companies {
+  background: #ccdbf0;
+  padding: 40px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  img {
+    height: 4vh;
+  }
+
+  .zoom {
+    height: 3vh;
+  }
+}
+
+.aboutUs__body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.aboutUs__body__section1 {
+  display: flex;
+  padding: 50px 60px;
+}
+
+.aboutUs__body__section1__info {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+
+  .crown {
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    height: 6vh;
+  }
+
+  h1 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 70px;
+    text-transform: capitalize;
+    color: #000f24;
+  }
+
+  p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #a2a2a2;
+  }
+
+  button {
+    padding: 16px 32px;
+    gap: 10px;
+    width: 166px;
+    height: 54px;
+    background: #004db3;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.09);
+      transition: all 0.6s ease-in-out;
+    }
+  }
+}
+
+.aboutUs__body__section1__info__options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  padding: 30px;
+
+  span {
+    display: flex;
+    gap: 20px;
+
+    p {
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+
+      text-transform: capitalize;
+      color: #000f24;
+    }
+
+    img {
+      height: 4vh;
+    }
+  }
+}
+
+.aboutUs__body__section1__hero {
+  flex: 0.5;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 60px 0px 0px;
+
+  .aboutUs__body__section1__hero__avatar {
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background: #ffffff;
+    border-radius: 8px;
+  }
+
+  .zigzag {
+    height: 2vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .raindrops {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+  }
+
+  .circle {
+    height: 1vh;
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+  }
+
+  .boy {
+    height: 52vh;
+  }
+
+  .woman {
+    position: absolute;
+    height: 30vh;
+    z-index: 5;
+    bottom: -20%;
+    left: 5%;
+  }
+}

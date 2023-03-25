@@ -1,7 +1,11 @@
 import './Testimonial.scss';
 
 const Testimonial = () => {
-  return <div>Testimonial</div>;
+  return (
+    <div className="testimonial" id="testimonial">
+      Testimonial
+    </div>
+  );
 };
 
 export default Testimonial;
