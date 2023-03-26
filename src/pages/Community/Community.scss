@@ -1,4 +1,123 @@
 .community {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #004db3;
+  gap: 30px;
+  padding: 50px 100px;
+
+  h6 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 69px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  .text-header {
+    text-transform: capitalize;
+    line-height: none;
+  }
+
+  .community__avatars {
+    margin: 0 auto;
+    position: relative;
+    width: 60%;
+    height: 60vh;
+
+    * {
+      object-fit: contain;
+      position: absolute;
+    }
+
+    .user-Avatar1 {
+      left: 10%;
+      top: 5%;
+    }
+
+    .user-Avatar2 {
+      left: 25%;
+      top: 40%;
+    }
+
+    .user-Avatar3 {
+      left: 60%;
+      top: 55%;
+    }
+
+    .user-Avatar4 {
+      left: 45%;
+      top: 40%;
+    }
+
+    .user-Avatar5 {
+      left: 50%;
+      top: 5%;
+    }
+
+    .user-Avatar6 {
+      left: 70%;
+      top: 32%;
+    }
+
+    .user-Avatar7 {
+      bottom: 2%;
+      left: 20%;
+    }
+
+    .user-Avatar8 {
+      bottom: 5%;
+      left: 45%;
+    }
+
+    .user-Avatar9 {
+      top: 12%;
+      left: 80%;
+    }
+
+    .user-Avatar10 {
+      bottom: 6%;
+      left: 80%;
+    }
+  }
+
+  button {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #004db3;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    width: 220px;
+    border-radius: 4px;
+    margin: 0 auto;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.07);
+      transition: all 0.6s ease-in-out;
+    }
+  }
 }

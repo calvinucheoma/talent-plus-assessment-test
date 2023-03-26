@@ -29,7 +29,7 @@ const Courses = () => {
         </div>
 
         <div className="courses__body__section">
-          {courses.map((course) => {
+          {courses.map((course, index) => {
             const {
               img,
               courseName,
@@ -43,7 +43,7 @@ const Courses = () => {
               price,
             } = course;
             return (
-              <div className="courses__body__section__course">
+              <div className="courses__body__section__course" key={index}>
                 <img src={img} alt="course banner img" />
                 <div className="course__title__info">
                   <h6>{courseName}</h6>
@@ -63,7 +63,9 @@ const Courses = () => {
                     <p>{courseLength}</p>
                   </span>
                   <span>
-                    <i>{VscBook}</i>
+                    <i>
+                      <VscBook />
+                    </i>
                     <p>{numOfLessons}</p>
                   </span>
                 </div>
@@ -81,6 +83,10 @@ const Courses = () => {
               </div>
             );
           })}
+        </div>
+
+        <div className="courses__body__button">
+          <button>explore all courses</button>
         </div>
       </div>
     </div>
