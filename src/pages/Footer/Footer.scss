@@ -1,0 +1,152 @@
+.footer {
+  background: #000f24;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-top: 150px;
+}
+
+.footer__socials {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h2 {
+    font-family: 'Amazing Kids';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  .footer__socials__network {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    i {
+      color: #2a2a2b;
+      font-size: 25px;
+    }
+  }
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 39px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  ul {
+    li {
+      list-style-type: none;
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      text-transform: capitalize;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.footer__community {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 39px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  ul {
+    li {
+      list-style-type: none;
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      text-transform: capitalize;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.footer__subscription {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 39px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  .footer__subscription__input {
+    display: flex;
+    align-items: center;
+
+    input {
+      outline: none;
+      border: 1px solid #054fb3;
+      padding: 12px 10px 10px 10px;
+      background: #2a2a2b;
+      border-radius: 2px 0px 0px 2px;
+      color: white;
+      width: 300px;
+    }
+
+    button {
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 19px;
+      text-transform: capitalize;
+      color: #ffffff;
+      background: #054fb3;
+      border-radius: 0px 2px 2px 0px;
+      padding: 10px;
+      width: 150px;
+      cursor: pointer;
+    }
+  }
+}

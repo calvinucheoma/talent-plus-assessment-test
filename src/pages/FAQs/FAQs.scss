@@ -1,0 +1,107 @@
+.faqs {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 30px 100px;
+}
+
+.faqs__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 10px;
+
+  h1 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #000f24;
+  }
+
+  p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #a2a2a2;
+  }
+
+  .circle-shape {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    height: 3vh;
+  }
+}
+
+.faqs__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+
+  .zigzag-yellow {
+    position: absolute;
+    top: 2%;
+    left: -20%;
+    height: 2vh;
+  }
+
+  h5 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #004db3;
+  }
+
+  p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #a2a2a2;
+  }
+
+  .faqs__body__accordion {
+    .accordion {
+      padding: 10px 0px;
+
+      .accordion-header {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #000f24;
+      }
+
+      .accordion-content {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: capitalize;
+        color: #a2a2a2;
+      }
+    }
+  }
+}

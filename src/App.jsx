@@ -1,6 +1,8 @@
 // import './App.scss';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Home, AboutUs, Courses, Testimonial, Community } from './pages';
+import FAQs from './pages/FAQs/FAQs';
+import Footer from './pages/Footer/Footer';
 
 function App() {
   function scrollTo(id) {
@@ -25,6 +27,8 @@ function App() {
         <Courses />
         <Testimonial />
         <Community />
+        <FAQs />
+        <Footer />
       </Router>
     </div>
   );
