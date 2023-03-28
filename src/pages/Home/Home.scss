@@ -197,3 +197,129 @@
     height: 15vh;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .home {
+    gap: 20px;
+    height: auto;
+  }
+
+  .home__body {
+    flex-direction: column;
+  }
+
+  .home__body__info {
+    padding: 20px;
+
+    .orange-dot {
+      display: none;
+    }
+
+    .small-circle {
+      display: none;
+    }
+
+    .zigzag {
+      height: 1vh;
+    }
+  }
+
+  .home__body__info__text {
+    h1 {
+      font-size: 32px;
+      line-height: 46px;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      font-size: 8px;
+      line-height: 15px;
+    }
+  }
+
+  .home__body__info__buttons {
+    gap: 10px;
+    justify-content: center;
+
+    button {
+      font-size: 8px;
+      line-height: 11px;
+    }
+
+    .button1 {
+      padding: 5px;
+    }
+
+    .button2 {
+      padding: 5px 10px;
+    }
+  }
+
+  .home__body__info__avatars {
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .home__body__info__avatars__text {
+    p {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .text {
+      font-size: 8px;
+    }
+  }
+
+  .home__body__hero {
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .hero {
+      height: 42vh;
+    }
+
+    .bulb {
+      left: 10%;
+      top: 5%;
+      height: 10vh;
+    }
+
+    .vscode {
+      height: 3vh;
+      right: 25%;
+    }
+
+    .figma {
+      height: 3vh;
+      left: 15%;
+      top: 60%;
+    }
+
+    .wordpress {
+      height: 3vh;
+      right: 20%;
+      bottom: 5%;
+    }
+
+    .circle {
+      height: 1vh;
+    }
+
+    .triangle {
+      height: 1vh;
+    }
+
+    .dot {
+      height: 0.5vh;
+    }
+
+    .spiral {
+      height: 5vh;
+      left: 5%;
+      top: 20%;
+    }
+  }
+}

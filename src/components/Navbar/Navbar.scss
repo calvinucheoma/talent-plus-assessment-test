@@ -82,3 +82,81 @@
     }
   }
 }
+
+.nav-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .navbar__title {
+    h1 {
+      font-size: 19.1615px;
+      line-height: 19px;
+    }
+  }
+
+  .navbar__links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    transition: all 0.5s ease-in-out;
+
+    &.mobile {
+      display: flex;
+      z-index: 100;
+    }
+  }
+
+  .navbar__links__text {
+    flex-direction: column;
+    padding: 5px;
+
+    a {
+      margin-top: 5px;
+      font-size: 8px;
+      line-height: 11px;
+      width: 100vw;
+      text-align: center;
+      padding: 10px;
+
+      &:hover {
+        background-color: #fff;
+        color: #004db3;
+        transform: scale(1.19);
+      }
+    }
+  }
+
+  .navbar__links__button {
+    button {
+      font-size: 8px;
+      line-height: 11px;
+      padding: 5px 20px;
+    }
+  }
+
+  .nav-toggle {
+    display: block;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    border-color: transparent;
+    transition: 0.3s ease-in-out all;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.63);
+      transform: rotate(90deg);
+    }
+  }
+}

@@ -29,6 +29,8 @@
     text-align: center;
     text-transform: capitalize;
     color: #ffffff;
+    width: 95%;
+    margin: 0 auto;
   }
 
   .text-header {
@@ -118,6 +120,45 @@
     &:hover {
       transform: scale(1.07);
       transition: all 0.6s ease-in-out;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .community {
+    padding: 50px;
+    gap: 15px;
+    // height: 60vh;
+    height: auto;
+
+    h6 {
+      font-size: 8px;
+      line-height: 11px;
+    }
+
+    h1 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    .text-header {
+      font-size: 8px;
+      line-height: 11px;
+    }
+
+    .community__avatars {
+      height: 40vh;
+      margin-bottom: 30px;
+      * {
+        height: 2vh;
+      }
+    }
+
+    button {
+      font-size: 8px;
+      line-height: 11px;
+      padding: 5px 10px;
+      width: 110px;
     }
   }
 }

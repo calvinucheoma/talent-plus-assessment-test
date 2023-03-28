@@ -133,6 +133,17 @@
     left: 15%;
     background: #ffffff;
     border-radius: 8px;
+
+    p {
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #000f24;
+    }
   }
 
   .zigzag {
@@ -268,5 +279,186 @@
     line-height: 28px;
     text-transform: capitalize;
     color: #a2a2a2;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .aboutUs__companies {
+    padding: 20px;
+
+    img {
+      height: 12px;
+    }
+
+    .zoom {
+      height: 10px;
+    }
+  }
+
+  .aboutUs__body1 {
+    // height: 75vh;
+    height: auto;
+  }
+
+  .aboutUs__body1__section {
+    flex-direction: column;
+    padding: 25px 30px;
+  }
+
+  .aboutUs__body1__section__info {
+    .crown {
+      height: 2vh;
+      left: 0;
+      top: -2%;
+    }
+
+    h1 {
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 8px;
+      line-height: 15px;
+      text-align: center;
+    }
+
+    button {
+      padding: 8px 16px;
+      width: 84px;
+      height: 27px;
+      margin: 0 auto;
+      font-size: 8px;
+      line-height: 11px;
+    }
+  }
+
+  .aboutUs__body1__section__info__options {
+    gap: 30px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+    span {
+      gap: 10px;
+
+      p {
+        font-size: 8px;
+        line-height: 11px;
+      }
+
+      img {
+        height: 2vh;
+      }
+    }
+  }
+
+  .aboutUs__body1__section__hero {
+    padding-right: 30px;
+
+    .aboutUs__body1__section__hero__avatar {
+      top: 15%;
+      left: 0;
+      padding-top: 5px;
+
+      p {
+        font-size: 6px;
+        line-height: 8px;
+      }
+
+      .MuiAvatar-root {
+        height: 2vh;
+        width: 5vw;
+        img {
+          object-fit: contain;
+        }
+      }
+    }
+
+    .zigzag {
+      height: 1vh;
+    }
+
+    .circle {
+      height: 0.5vh;
+    }
+
+    .raindrops {
+      height: 10vh;
+    }
+
+    .boy {
+      height: 26vh;
+    }
+
+    .woman {
+      height: 15vh;
+    }
+  }
+
+  .aboutUs__body2 {
+    padding: 0px 20px;
+    flex-direction: column;
+    gap: 0;
+    // height: 90vh;
+    height: auto;
+  }
+
+  .aboutUs__body2__section1 {
+    h1 {
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 8px;
+      line-height: 16px;
+      text-align: center;
+    }
+
+    .kidHero {
+      height: 30vh;
+    }
+
+    .green-triangle {
+      height: 1vh;
+    }
+  }
+
+  .aboutUs__body2__section2 {
+    .zigzag {
+      height: 1.5vh;
+    }
+
+    .circlePurple {
+      height: 1vh;
+      right: 0;
+      top: 35%;
+    }
+  }
+
+  .aboutUs__body2__section2__infos {
+    margin-top: 0px;
+    gap: 20px;
+  }
+
+  .aboutUs__body2__section2__info {
+    gap: 7px;
+
+    img {
+      height: 3vh;
+    }
+
+    h4 {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    p {
+      font-size: 8px;
+      line-height: 16px;
+    }
   }
 }

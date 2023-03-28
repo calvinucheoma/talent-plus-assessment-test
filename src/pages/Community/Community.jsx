@@ -15,10 +15,7 @@ const Community = () => {
   return (
     <div className="community" id="community">
       <h6>join our community</h6>
-      <h1>
-        are you ready to connect with the future
-        <br /> talent of the tech world
-      </h1>
+      <h1>are you ready to connect with the future talent of the tech world</h1>
       <h6 className="text-header">
         meet up with other techstars and grow together
       </h6>
