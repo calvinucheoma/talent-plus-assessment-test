@@ -152,11 +152,11 @@
     border-color: transparent;
     transition: 0.3s ease-in-out all;
     cursor: pointer;
-    transition: all 0.5s ease-in-out;
+    // transition: all 0.5s ease-in-out;
 
     &:hover {
       color: rgba(255, 255, 255, 0.63);
-      transform: rotate(90deg);
+      // transform: rotate(90deg);
     }
   }
 }

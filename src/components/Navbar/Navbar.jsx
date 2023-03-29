@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.scss';
 
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = ({ scrollTo }) => {
   const [showLinks, setShowLinks] = useState(false);
@@ -73,7 +73,7 @@ const Navbar = ({ scrollTo }) => {
       </div>
 
       <button className="nav-toggle" onClick={toggleLinks}>
-        <FaBars />
+        {showLinks ? <FaTimes /> : <FaBars />}
       </button>
 
       {/* <div

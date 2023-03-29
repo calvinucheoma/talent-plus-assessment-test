@@ -7,7 +7,8 @@ import {
   AccordionSummary,
   IconButton,
 } from '@mui/material';
-import { Add } from '@mui/icons-material';
+import { Add, Remove } from '@mui/icons-material';
+import { useState } from 'react';
 
 const FAQs = () => {
   const accordionDetails = [
@@ -43,6 +44,18 @@ const FAQs = () => {
     },
   ];
 
+  const [expanded, setExpanded] = useState(
+    new Array(accordionDetails.length).fill(false)
+  );
+
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded((prevState) => {
+      const newExpanded = [...prevState];
+      newExpanded[panel] = isExpanded;
+      return newExpanded;
+    });
+  };
+
   return (
     <div className="faqs">
       <div className="faqs__header">
@@ -69,11 +82,17 @@ const FAQs = () => {
           {accordionDetails.map((detail) => {
             const { id, header, content } = detail;
             return (
-              <Accordion key={id} sx={{ width: '100%' }} className="accordion">
+              <Accordion
+                expanded={expanded[id]}
+                onChange={handleChange(id)}
+                key={id}
+                sx={{ width: '100%' }}
+                className="accordion"
+              >
                 <AccordionSummary
                   expandIcon={
                     <IconButton>
-                      <Add />
+                      {expanded[id] ? <Remove /> : <Add />}
                     </IconButton>
                   }
                 >
