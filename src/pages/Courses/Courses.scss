@@ -256,12 +256,14 @@
     }
 
     p {
-      font-size: 8px;
-      line-height: 16px;
+      font-size: 12px;
+      line-height: 20px;
+      width: 85%;
+      margin: 0 auto;
     }
 
     .bird-shape {
-      height: 1vh;
+      height: 2vh;
     }
   }
 
@@ -274,8 +276,8 @@
     margin-top: 25px;
 
     h5 {
-      font-size: 8px;
-      line-height: 11px;
+      font-size: 12px;
+      line-height: 16px;
     }
   }
 
@@ -293,34 +295,34 @@
 
     .course__title__info {
       h6 {
-        font-size: 4px;
-        line-height: 5px;
+        font-size: 10px;
+        line-height: 12px;
       }
 
       span {
         p {
-          font-size: 4px;
-          line-height: 5px;
+          font-size: 10px;
+          line-height: 12px;
         }
         i {
-          font-size: 5px;
+          font-size: 12px;
         }
       }
     }
 
     h2 {
-      font-size: 8px;
-      line-height: 10px;
+      font-size: 12px;
+      line-height: 14px;
     }
 
     .course__runtime__info {
       span {
         p {
-          font-size: 4px;
-          line-height: 5px;
+          font-size: 10px;
+          line-height: 12px;
         }
         i {
-          font-size: 5px;
+          font-size: 12px;
         }
       }
     }
@@ -328,13 +330,13 @@
     .course__tutor__info {
       span {
         .tutor-name {
-          font-size: 6px;
-          line-height: 8px;
+          font-size: 12px;
+          line-height: 14px;
         }
       }
       p {
-        font-size: 8px;
-        line-height: 10px;
+        font-size: 12px;
+        line-height: 14px;
       }
     }
   }
@@ -342,8 +344,8 @@
   .courses__body__button {
     button {
       padding: 10px;
-      font-size: 8px;
-      line-height: 11px;
+      font-size: 12px;
+      line-height: 16px;
     }
   }
 }

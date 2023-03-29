@@ -125,8 +125,8 @@
     }
 
     p {
-      font-size: 8px;
-      line-height: 16px;
+      font-size: 12px;
+      line-height: 20px;
       width: 100%;
     }
   }
@@ -135,29 +135,29 @@
     gap: 30px;
 
     .testimonial__body__details {
-      gap: 15px;
+      gap: 30px;
       width: 100%;
 
       p {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 14px;
+        line-height: 18px;
       }
 
-      .userDetails {
-        .userAvatar {
-          height: 2vh;
-        }
-      }
+      // .userDetails {
+      //   .userAvatar {
+      //     // height: 3vh;
+      //   }
+      // }
 
       .userInfo {
         h6 {
-          font-size: 10px;
-          line-height: 14px;
+          font-size: 14px;
+          line-height: 18px;
         }
 
         p {
-          font-size: 8px;
-          line-height: 11px;
+          font-size: 12px;
+          line-height: 16px;
         }
       }
     }

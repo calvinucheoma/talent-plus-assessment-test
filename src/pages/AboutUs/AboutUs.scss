@@ -284,14 +284,14 @@
 
 @media screen and (max-width: 720px) {
   .aboutUs__companies {
-    padding: 20px;
+    padding: 20px 10px;
 
     img {
-      height: 12px;
+      height: 16px;
     }
 
     .zoom {
-      height: 10px;
+      height: 12px;
     }
   }
 
@@ -319,37 +319,39 @@
     }
 
     p {
-      font-size: 8px;
-      line-height: 15px;
+      font-size: 12px;
+      line-height: 20px;
       text-align: center;
     }
 
     button {
-      padding: 8px 16px;
-      width: 84px;
-      height: 27px;
+      padding: 12px 20px;
+      width: auto;
+      height: auto;
       margin: 0 auto;
-      font-size: 8px;
-      line-height: 11px;
+      font-size: 12px;
+      line-height: 16px;
     }
   }
 
   .aboutUs__body1__section__info__options {
     gap: 30px;
     padding: 10px;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin: 30px auto;
+    margin-bottom: 50px;
 
     span {
       gap: 10px;
+      display: flex;
+      align-items: center;
 
       p {
-        font-size: 8px;
-        line-height: 11px;
+        font-size: 12px;
+        line-height: 16px;
       }
 
       img {
-        height: 2vh;
+        height: 3.5vh;
       }
     }
   }
@@ -363,13 +365,13 @@
       padding-top: 5px;
 
       p {
-        font-size: 6px;
-        line-height: 8px;
+        font-size: 10px;
+        line-height: 12px;
       }
 
       .MuiAvatar-root {
-        height: 2vh;
-        width: 5vw;
+        height: 3vh;
+        width: 6vw;
         img {
           object-fit: contain;
         }
@@ -413,8 +415,8 @@
     }
 
     p {
-      font-size: 8px;
-      line-height: 16px;
+      font-size: 12px;
+      line-height: 20px;
       text-align: center;
     }
 
@@ -428,6 +430,7 @@
   }
 
   .aboutUs__body2__section2 {
+    margin-top: 20px;
     .zigzag {
       height: 1.5vh;
     }
@@ -440,25 +443,28 @@
   }
 
   .aboutUs__body2__section2__infos {
-    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
     gap: 20px;
   }
 
   .aboutUs__body2__section2__info {
     gap: 7px;
+    margin-bottom: 20px;
 
     img {
       height: 3vh;
     }
 
     h4 {
-      font-size: 12px;
-      line-height: 16px;
+      font-size: 16px;
+      line-height: 22px;
     }
 
     p {
-      font-size: 8px;
-      line-height: 16px;
+      font-size: 12px;
+      line-height: 20px;
     }
   }
 }

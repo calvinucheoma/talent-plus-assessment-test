@@ -49,9 +49,8 @@ const FAQs = () => {
         <h1>frequently asked questions</h1>
         <p>
           high-defination video is video of higher resolution and quality than
-          standard definition.
-          <br /> while there’s no standard meaning for high definition,
-          generally any standard video image
+          standard definition. while there’s no standard meaning for high
+          definition, generally any standard video image
         </p>
         <img src={circle} alt="circle shape" className="circle-shape" />
       </div>
