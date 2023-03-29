@@ -1,4 +1,4 @@
-// import './App.scss';
+import './App.scss';
 // import { useEffect, useState } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Home, AboutUs, Courses, Testimonial, Community } from './pages';

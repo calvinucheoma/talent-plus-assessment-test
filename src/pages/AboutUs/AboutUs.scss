@@ -284,14 +284,15 @@
 
 @media screen and (max-width: 720px) {
   .aboutUs__companies {
-    padding: 20px 10px;
+    padding: 20px 0px;
+    justify-content: space-around;
 
     img {
-      height: 16px;
+      height: 14px;
     }
 
     .zoom {
-      height: 12px;
+      height: 10px;
     }
   }
 
@@ -360,8 +361,8 @@
     padding-right: 30px;
 
     .aboutUs__body1__section__hero__avatar {
-      top: 15%;
-      left: 0;
+      top: 10%;
+      left: -6%;
       padding-top: 5px;
 
       p {

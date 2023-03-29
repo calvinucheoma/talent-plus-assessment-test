@@ -38,65 +38,73 @@
     line-height: none;
   }
 
+  // .community__avatars {
+  //   margin: 0 auto;
+  //   position: relative;
+  //   width: 60%;
+  //   height: 60vh;
+
+  //   * {
+  //     object-fit: contain;
+  //     position: absolute;
+  //   }
+
+  //   .user-Avatar1 {
+  //     left: 10%;
+  //     top: 5%;
+  //   }
+
+  //   .user-Avatar2 {
+  //     left: 25%;
+  //     top: 40%;
+  //   }
+
+  //   .user-Avatar3 {
+  //     left: 60%;
+  //     top: 55%;
+  //   }
+
+  //   .user-Avatar4 {
+  //     left: 45%;
+  //     top: 40%;
+  //   }
+
+  //   .user-Avatar5 {
+  //     left: 50%;
+  //     top: 5%;
+  //   }
+
+  //   .user-Avatar6 {
+  //     left: 70%;
+  //     top: 32%;
+  //   }
+
+  //   .user-Avatar7 {
+  //     bottom: 2%;
+  //     left: 20%;
+  //   }
+
+  //   .user-Avatar8 {
+  //     bottom: 5%;
+  //     left: 45%;
+  //   }
+
+  //   .user-Avatar9 {
+  //     top: 12%;
+  //     left: 80%;
+  //   }
+
+  //   .user-Avatar10 {
+  //     bottom: 6%;
+  //     left: 80%;
+  //   }
+  // }
+
   .community__avatars {
     margin: 0 auto;
-    position: relative;
-    width: 60%;
-    height: 60vh;
-
-    * {
+    img {
+      height: 40vh;
       object-fit: contain;
-      position: absolute;
-    }
-
-    .user-Avatar1 {
-      left: 10%;
-      top: 5%;
-    }
-
-    .user-Avatar2 {
-      left: 25%;
-      top: 40%;
-    }
-
-    .user-Avatar3 {
-      left: 60%;
-      top: 55%;
-    }
-
-    .user-Avatar4 {
-      left: 45%;
-      top: 40%;
-    }
-
-    .user-Avatar5 {
-      left: 50%;
-      top: 5%;
-    }
-
-    .user-Avatar6 {
-      left: 70%;
-      top: 32%;
-    }
-
-    .user-Avatar7 {
-      bottom: 2%;
-      left: 20%;
-    }
-
-    .user-Avatar8 {
-      bottom: 5%;
-      left: 45%;
-    }
-
-    .user-Avatar9 {
-      top: 12%;
-      left: 80%;
-    }
-
-    .user-Avatar10 {
-      bottom: 6%;
-      left: 80%;
     }
   }
 
@@ -115,6 +123,7 @@
     width: 220px;
     border-radius: 4px;
     margin: 0 auto;
+    margin-top: 20px;
     cursor: pointer;
 
     &:hover {
@@ -147,12 +156,20 @@
       line-height: 16px;
     }
 
+    // .community__avatars {
+    //   height: 40vh;
+    //   margin-bottom: 30px;
+    //   // * {
+    //   //   height: 2vh;
+    //   // }
+    // }
+
     .community__avatars {
-      height: 40vh;
-      margin-bottom: 30px;
-      // * {
-      //   height: 2vh;
-      // }
+      img {
+        height: 20vh;
+        width: 80vw;
+        object-fit: contain;
+      }
     }
 
     button {
@@ -176,15 +193,17 @@
     }
 
     .community__avatars {
-      height: 50vh;
-      margin-bottom: 50px;
+      img {
+        height: 30vh;
+        object-fit: contain;
+      }
     }
 
     button {
       font-size: 12px;
       line-height: 18px;
       padding: 10px 20px;
-      width: 25%;
+      width: auto;
     }
   }
 }

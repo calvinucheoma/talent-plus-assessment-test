@@ -5,6 +5,7 @@
   flex-direction: column;
   padding: 50px 100px;
   gap: 80px;
+  background: #f8f9fc;
 }
 
 .testimonial__header {
@@ -41,6 +42,9 @@
   display: flex;
   align-items: center;
   gap: 70px;
+  background-color: white;
+  box-shadow: 1px 2px 3px 4px rgba(12, 12, 12, 0.2);
+  padding: 20px;
 
   .testimonial__body__details {
     display: flex;
