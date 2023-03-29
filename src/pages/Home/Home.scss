@@ -323,3 +323,129 @@
     }
   }
 }
+
+@media screen and (min-width: 721px) and (max-width: 1380px) {
+  .home {
+    gap: 35px;
+    height: auto;
+  }
+
+  // .home__body {
+  //   flex-direction: column;
+  // }
+
+  .home__body__info {
+    padding: 25px 50px;
+
+    // .orange-dot {
+    //   display: none;
+    // }
+
+    // .small-circle {
+    //   display: none;
+    // }
+
+    .zigzag {
+      height: 2vh;
+    }
+  }
+
+  .home__body__info__text {
+    h1 {
+      font-size: 40px;
+      line-height: 52px;
+      // text-align: center;
+    }
+
+    p {
+      // text-align: center;
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+
+  .home__body__info__buttons {
+    gap: 15px;
+    // justify-content: center;
+
+    button {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    .button1 {
+      padding: 7px;
+    }
+
+    .button2 {
+      padding: 7px 15px;
+    }
+  }
+
+  .home__body__info__avatars {
+    // justify-content: center;
+    gap: 6px;
+  }
+
+  .home__body__info__avatars__text {
+    p {
+      font-size: 22px;
+      line-height: 27px;
+    }
+    .text {
+      font-size: 12px;
+    }
+  }
+
+  .home__body__hero {
+    padding: 0 75px;
+    display: flex;
+    align-items: flex-end;
+    // justify-content: center;
+
+    .hero {
+      height: 50vh;
+    }
+
+    .bulb {
+      left: 10%;
+      top: 5%;
+      height: 18vh;
+    }
+
+    .vscode {
+      height: 6vh;
+      right: 25%;
+    }
+
+    .figma {
+      height: 6vh;
+      left: 15%;
+      top: 60%;
+    }
+
+    .wordpress {
+      height: 6vh;
+      right: 20%;
+      bottom: 5%;
+    }
+
+    .circle {
+      height: 2vh;
+    }
+
+    .triangle {
+      height: 2vh;
+    }
+
+    .dot {
+      height: 1.5vh;
+    }
+
+    .spiral {
+      height: 10vh;
+      left: 5%;
+      top: 20%;
+    }
+  }
+}

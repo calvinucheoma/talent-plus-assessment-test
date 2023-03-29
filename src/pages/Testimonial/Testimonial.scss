@@ -113,8 +113,9 @@
 @media screen and (max-width: 720px) {
   .testimonial {
     padding: 50px;
-    height: 60vh;
+    // height: 60vh;
     height: auto;
+    gap: 40px;
   }
 
   .testimonial__header {
@@ -165,6 +166,47 @@
   .testimonial__slider {
     img {
       height: 7px;
+    }
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1380px) {
+  .testimonial {
+    padding: 75px;
+    height: auto;
+    gap: 60px;
+  }
+
+  .testimonial__header {
+    h1 {
+      font-size: 36px;
+      line-height: 46px;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+
+  .testimonial__body {
+    gap: 45px;
+
+    .testimonial__body__details {
+      gap: 25px;
+      width: 100%;
+      width: 90%;
+
+      p {
+        font-size: 14px;
+        line-height: 26px;
+      }
+    }
+  }
+
+  .testimonial__slider {
+    img {
+      height: 10px;
     }
   }
 }

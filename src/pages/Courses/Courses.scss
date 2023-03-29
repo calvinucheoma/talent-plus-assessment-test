@@ -347,3 +347,108 @@
     }
   }
 }
+
+@media screen and (min-width: 721px) and (max-width: 1380px) {
+  .courses {
+    padding: 15px 50px;
+  }
+
+  .courses__header {
+    margin-top: 70px;
+    h1 {
+      font-size: 36px;
+      line-height: 46px;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+    .bird-shape {
+      height: 1vh;
+    }
+  }
+
+  .courses__body {
+    gap: 20px;
+  }
+
+  .courses__body__links {
+    gap: 15px;
+    margin-top: 25px;
+
+    h5 {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+  .courses__body__section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .courses__body__section__course {
+    width: 100%;
+
+    img {
+      height: 15vh;
+    }
+
+    .course__title__info {
+      h6 {
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      span {
+        p {
+          font-size: 12px;
+          line-height: 18px;
+        }
+        i {
+          font-size: 12px;
+        }
+      }
+    }
+
+    h2 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+
+    .course__runtime__info {
+      span {
+        p {
+          font-size: 12px;
+          line-height: 18px;
+        }
+        i {
+          font-size: 10px;
+        }
+      }
+    }
+
+    .course__tutor__info {
+      span {
+        .tutor-name {
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .courses__body__button {
+    button {
+      padding: 10px 20px;
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+}

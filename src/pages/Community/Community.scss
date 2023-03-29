@@ -139,6 +139,7 @@
     h1 {
       font-size: 24px;
       line-height: 30px;
+      letter-spacing: 1px;
     }
 
     .text-header {
@@ -149,9 +150,9 @@
     .community__avatars {
       height: 40vh;
       margin-bottom: 30px;
-      * {
-        height: 2vh;
-      }
+      // * {
+      //   height: 2vh;
+      // }
     }
 
     button {
@@ -159,6 +160,31 @@
       line-height: 11px;
       padding: 5px 10px;
       width: 110px;
+    }
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1380px) {
+  .community {
+    padding: 75px;
+    gap: 25px;
+    height: auto;
+
+    h1 {
+      font-size: 36px;
+      line-height: 46px;
+    }
+
+    .community__avatars {
+      height: 50vh;
+      margin-bottom: 50px;
+    }
+
+    button {
+      font-size: 12px;
+      line-height: 18px;
+      padding: 10px 20px;
+      width: 25%;
     }
   }
 }
