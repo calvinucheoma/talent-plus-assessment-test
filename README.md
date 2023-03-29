@@ -31,6 +31,7 @@
   <summary>Technologies Used</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">vite</a></li>
     <li><a href="https://reactjs.org/">SCSS</a></li>
     <li><a href="https://reactjs.org/">MaterialUI</a></li>
     <li><a href="https://reactjs.org/">Docker</a></li>
@@ -60,7 +61,7 @@ Clone this repository to your desired folder:
 
 #### Build the docker image
 
-To build the Docker image, run the following command:
+To build the Docker image, run the following command in the root folder of the application:
 
 ```sh
   docker build -t my-react-app .
@@ -68,7 +69,7 @@ To build the Docker image, run the following command:
 
 #### Run the docker container
 
-To run the Docker container, run the following command:
+To run the Docker container, run the following command in the root folder of the application:
 
 ```sh
   docker run -p 3000:3000 my-react-app
@@ -84,9 +85,11 @@ To stop the Docker container, use the `docker stop` command followed by the cont
     docker stop <container_id_or_name>
 ```
 
+The container id or name can be gotten from your docker desktop application and is normally a string of alphanumeric characters which you can find below your docker image name. You copy it and then paste it where you have '<container_id_or_name>' (remove the angle <> brackets while doing so).
+
 ---
 
-> That's it! This React application is now dockerized and ready to be built and run using Docker.
+> That's it! You can now view the react application on http://localhost:3000/
 
 ---
 
